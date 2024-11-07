@@ -610,6 +610,11 @@ def parse_value(  # noqa: C901
             return parse_multiline_str(src, pos, literal=True)
         return parse_literal_str(src, pos)
 
+    # Null
+    if char == "n":
+        if src.startswith("null", pos):
+            return pos + 4, None
+
     # Booleans
     if char == "t":
         if src.startswith("true", pos):
