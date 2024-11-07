@@ -1,0 +1,30 @@
+
+# Exclude everything
+/*
+
+# Include specifically
+
+## Markdowns
+!*.md
+
+## Important Git files
+!.gitmodules
+!.gitignore
+!.gitattributes
+!.git-blame-ignore-revs
+
+## Pipenv
+!Pipfile
+!Pipfile.lock
+!.venv
+.venv/*
+!.venv/.gitkeep
+
+## PyPI
+!.pypirc
+
+## Sources
+!/src
+!/tests
+
+# Explicit exceptions/ignores
