@@ -23,5 +23,5 @@ classifiers = [
 dynamic = ["version"]
 
 [project.urls]
-Homepage = "https://github.com/lordfirespeed/jomllib
+Homepage = "https://github.com/lordfirespeed/jomllib"
 Issues = "https://github.com/lordfirespeed/jomllib/issues"
