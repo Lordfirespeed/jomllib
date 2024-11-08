@@ -12,8 +12,6 @@ publish = "python3 -m twine upload --repository pypi dist/*"
 [packages]
 
 [dev-packages]
-hatch = ">=1.13.0, ==1.*"
-hatch-vcs = "==0.4.0, ==0.4.*"
 build = "*"
 twine = "*"
 
