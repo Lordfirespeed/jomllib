@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+source = "vcs"
+
+[project]
+name = "jomllib"
+authors = [
+  { name="Lordfirespeed", email="me@lordfirespeed.dev" },
+]
+description = """This module provides an interface for parsing JOML 1.0.0 (Joe’s Obvious Minimal Language).
+This module does not support writing TOML.
+"""
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: LGPL-3.0-or-later License",
+    "Operating System :: OS Independent",
+]
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.com/lordfirespeed/jomllib
+Issues = "https://github.com/lordfirespeed/jomllib/issues"
