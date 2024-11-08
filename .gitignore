@@ -22,6 +22,7 @@
 
 ## PyPI
 !.pypirc
+!pyproject.toml
 
 ## Sources
 !/src

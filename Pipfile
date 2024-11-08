@@ -8,6 +8,8 @@ name = "pypi"
 [packages]
 
 [dev-packages]
+hatch = ">=1.13.0, ==1.*"
+hatch-vcs = "==0.4.0, ==0.4.*"
 
 [requires]
 python_version = "3.12"
