@@ -16,7 +16,7 @@ authors = [
   { name="Lordfirespeed", email="me@lordfirespeed.dev" },
 ]
 description = """This module provides an interface for parsing JOML 1.0.0 (Joe’s Obvious Minimal Language).
-This module does not support writing TOML.
+This module does not support writing JOML.
 """
 readme = "README.md"
 requires-python = ">=3.8"
